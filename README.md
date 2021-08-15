@@ -1,2 +1,2 @@
 # frontend
-Frontend written with React
+Frontend written with React + Typescript
