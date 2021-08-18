@@ -1,0 +1,55 @@
+{
+  "name": "nordic-spirit-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.19",
+    "@types/react": "^17.0.18",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.3.5",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "npm run start:react",
+    "build": "react-scripts build",
+    "start:react": "react-scripts start",
+    "watch:sass": "node-sass ./sass/main.scss ./public/css/styles.css -w",
+    "dev": "npm-run-all --parallel start:react watch:sass",
+    "compile:sass": "node-sass ./sass/main.scss ./public/css/styles.comp.css",
+    "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' ./public/css/styles.comp.css -o ./public/css/styles.prefix.css",
+    "compress:css": "node-sass ./public/css/styles.prefix.css ./public/css/styles.css --output-style compressed",
+    "build:css": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "node-sass": "^6.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.6",
+    "postcss-cli": "^8.3.1"
+  }
+}
