@@ -29,6 +29,8 @@
 - Mahdolliseti joku siisti suhteellisen iso kuva jossa tekstinä keskellä esim. 'Nordic Spirit' ja joku slogani
 - Esillä tuotteita esimerkiksi slaidereissa yms. jossain siistissä hommassa, ideoita? Aina ehkäpä 5-10kpl per slaideri
 - Tuotteita voisi olla esillä esim. uusimmat, ostetuimmat, parhaimpia arvosteluita saaneet, ideoita?
+- Etusivulla voitais myös mainostaa kampanjoita jotka on käynnissä (esim. kesäkampanja, syyskampanja yms.)
+- Etusivulla vois olla vaan kuva tyyliin joka liittyy kampanjaan ja kampanjan esittelyteksti kuvan päällä ja sitten joku buttoni josta pääsis kunkin kampanjan sivulle selaamaan tuotteita liittyen siihe kampanjaan
 
 #### Browsing products page
 
