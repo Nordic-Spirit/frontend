@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './components/App';
+import IndexRouter from './routes';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <IndexRouter />
   </React.StrictMode>,
   document.querySelector('#root')
 );
